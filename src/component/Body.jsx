@@ -19,6 +19,15 @@ import googleStore from "../assets/Images/google store.svg"
 import ring from "../assets/Images/ring.png"
 import cbn from "../assets/Images/cbn.png"
 import ndic from "../assets/Images/ndic.png"
+import part1 from "../assets/Images/part1.png"
+import part2 from "../assets/Images/part2.png"
+import part3 from "../assets/Images/part3.png"
+import part4 from "../assets/Images/part4.png"
+import part5 from "../assets/Images/part5.png"
+import part6 from "../assets/Images/part6.png"
+import part7 from "../assets/Images/part7.png"
+import emoji from "../assets/Images/emoji.png"
+import emoji1 from "../assets/Images/emoji1.png"
 
 const Main = ()=> {
     return (
@@ -71,12 +80,17 @@ const Main = ()=> {
                     <a className="a b" href="">Open An Account in Minutes</a>
                     <svg width="8" height="14" viewBox="0 0 8 14" fill="none"><path fill-rule="evenodd" clip-rule="evenodd"d="M0 1.86859L1.39309 0.498047L8 6.99805L1.39309 13.498L0 12.1275L5.21383 6.99805L0 1.86859Z"fill="#40196D"></path></svg>
                 </div>
-                
+                <div className="got2">
+                    <img src={part1} alt="" />
+                </div>
             </main>
             <main className="main5">
                 <div className="div3">
                     <h1>It’s your money, we <br/> just help you <br/> manage it.</h1>
                     <p className="p3">Save it, spend it, send it. It’s up to you. Whatever you choose to do with your money, we’ll make sure it’s done better and free of charge. We take responsibility for that.</p>
+                </div>
+                <div className="got3">
+                    <img src={part2} alt="" />
                 </div>
             </main>
             <main className="main6">
@@ -85,12 +99,18 @@ const Main = ()=> {
                     <p className="p3">You can’t avoid spending. That’s how you pay for your needs. But we can help you put money away every time you pay for something. Just set a percentage to save and watch your money grow.</p>
                     <a className="a" href="">See all our Savings</a>
                 </div>
+                <div className="got4">
+                    <img src={part3} alt="" />
+                </div>
             </main>
             <main className="main7">
                 <div className="div5">
                     <h1>Turn off access, <br/> turn on safety.</h1>
                     <p className="p3">Life happens. Milk spills. Debit cards go missing. If that ever happens, you can block your missing card on the app so no one can use it. We’d like to see them try.</p>
                     <a className="a" href="#">Learn more about Cards</a>
+                </div>
+                <div className="got5">
+                    <img src={part4} alt="" />
                 </div>
             </main>
             <main className="main8">
@@ -99,12 +119,18 @@ const Main = ()=> {
                     <p className="p3">You can chat with us on the app, slide into our DMs, tweet, leave an Instagram comment, send an email or call. However you choose to reach out, there’ll always be a friendly person there to make your life easy.</p>
                     <a className="a" href="#">Get Help</a>
                 </div>
+                <div className="got6">
+                    <img src={part5} alt="" />
+                </div>
             </main>
             <main className="main9">
                 <div className="div7">
                     <h1>Fees as clear as <br/> glass.</h1>
                     <p className="p3">We’re serious about free banking, and we will never, ever charge you for anything without your consent.</p>
                     <a className="a" href="#">See all our fees</a>
+                </div>
+                <div className="got7">
+                    <img src={part6} alt="" />
                 </div>
             </main>
             <h1 className="h1">Don’t just take our word for it</h1>
@@ -244,8 +270,7 @@ const Main = ()=> {
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="8" fill="#DBDCE0"></circle><rect x="3" y="6.99902" width="10" height="2" rx="1" fill="#979797"></rect></svg>
                         </span>
                         <span>
-                            {/* <img src={emoji} /> */}
-                            🤨
+                            <img src={emoji} />
                         </span>
                     </div>
                     <div className="div25 div26">
@@ -312,7 +337,7 @@ const Main = ()=> {
                     <div className="div25 div26">
                         <span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="8" fill="#DBDCE0"></circle><rect x="3" y="6.99902" width="10" height="2" rx="1" fill="#979797"></rect></svg></span>
                         <span>
-                            😒
+                            <img src={emoji1} alt="" />
                         </span>
                     </div>
                     <div className="div25 div26">
@@ -342,7 +367,7 @@ const Main = ()=> {
                     <button id="button1">Join Kuda</button>
                 </div>
                 <div className="div27">
-                    <img src={ring} />
+                    <img src={part7} />
                 </div>
             </main>
         </>

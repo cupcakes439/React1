@@ -682,6 +682,7 @@ li {
 .div35 {
     width: 235.36px;
     height: 104.19px;
+    text-align: left;
 }
 
 .span2 {
@@ -706,6 +707,7 @@ li {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    text-align: left;
 }
 
 .p7 {

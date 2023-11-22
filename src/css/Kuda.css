@@ -120,6 +120,7 @@ nav {
 
 #flag {
     margin-right: 50px;
+    margin-top: 5px;
 }
 
 .ki {
@@ -303,12 +304,15 @@ h1 {
 .a {
     margin-right: 6px;
     color: #40196d;
-    text-decoration: underline;
 }
 
 .div2 {
     width: 380px;
     height: 290.9px;
+}
+
+.boy {
+    text-decoration: underline;
 }
 
 .div3 {

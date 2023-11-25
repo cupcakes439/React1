@@ -30,6 +30,9 @@ import emoji from "../assets/Images/emoji.png"
 import emoji1 from "../assets/Images/emoji1.png"
 
 const Main = ()=> {
+    const h1 = "Your phone + our app + a debit card = a simpler life.".split(" ")
+    const h2 = "It’s your money, we just help you manage it.".split(" ")
+
     return (
         <>
             <main className="main1">
@@ -75,7 +78,12 @@ const Main = ()=> {
         </main>
             <main className="main4">
                 <div className="div2">
-                    <h1 className="">Your phone + <br/>our app + <br/> a debit card = <br/> a simpler life.</h1>
+                    <h1>
+                        {`${h1[0]} ${h1[1]} ${h1[2]}`} <br />
+                        {`${h1[3]} ${h1[4]} ${h1[5]}`} <br />
+                        {`${h1[6]} ${h1[7]} ${h1[8]} ${h1[9]}`} <br />
+                        {`${h1[10]} ${h1[11]} ${h1[12]}`} <br />
+                    </h1>
                     <p className="p3">We designed a money app for your lifestyle, and you can get a debit card to go with it. That's all you need to make the right money moves.</p>
                     <a className="a b" href="">Open An Account in Minutes</a>
                     <svg width="8" height="14" viewBox="0 0 8 14" fill="none"><path fill-rule="evenodd" clip-rule="evenodd"d="M0 1.86859L1.39309 0.498047L8 6.99805L1.39309 13.498L0 12.1275L5.21383 6.99805L0 1.86859Z"fill="#40196D"></path></svg>
@@ -86,7 +94,12 @@ const Main = ()=> {
             </main>
             <main className="main5">
                 <div className="div3">
-                    <h1>It’s your money, we <br/> just help you <br/> manage it.</h1>
+                    <h1>
+                        {/* It’s your money, we <br/> just help you <br/> manage it. */}
+                        {`${h2[0]} ${h2[1]} ${h2[2]} ${h2[3]}`} <br />
+                        {`${h2[4]} ${h2[5]} ${h2[6]}`} <br />
+                        {`${h2[7]} ${h2[8]}`} <br />
+                    </h1>
                     <p className="p3">Save it, spend it, send it. It’s up to you. Whatever you choose to do with your money, we’ll make sure it’s done better and free of charge. We take responsibility for that.</p>
                 </div>
                 <div className="got3">
